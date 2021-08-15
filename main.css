@@ -1,0 +1,25 @@
+h1
+{color:#FFFFFF;
+font-family: 'Lobster';
+font-size:100px;
+position:absolute;
+left:200px;
+top:150px;
+}
+h5
+{
+color:#cc005f;
+font-size:25px;
+position:absolute;
+left:340px;
+top:160px;}
+body
+{
+ background-image: url('https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=753&q=80');
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+ background-size:cover;}
+ span
+ {
+ color :#ffffff;
+ }
