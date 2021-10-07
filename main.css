@@ -1,10 +1,63 @@
+*
+{
+box-sizing: border box;
+margin:0;
+padding:0;
+}
+#intro {
+    background: #cc005f url('https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=753&q=80') no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 721px;
+    display: table;
+    position: relative;
+    text-align: center;
+}
+
+a
+{
+text-decoration:none;}
+/*.headr
+{
+position:fixed;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:30px 70px;
+
+}
+.nav-area
+{
+
+list:style:none;
+}
+.nav-area li
+{
+
+display:inline;
+
+justify-content:space-between;
+padding: 0 130px;
+text-transform:uppercase;}
+.nav-area li a
+{
+transition: .3s;
+color:#ffffff;}
+.nav-area li a:hover{
+color:#cc005f;}
+*/
+
 h1
 {color:#FFFFFF;
 font-family: 'Lobster';
-font-size:100px;
+font-size:90px;
 position:absolute;
 left:200px;
-top:150px;
+top:200px;
 }
 h5
 {
@@ -12,14 +65,64 @@ color:#cc005f;
 font-size:25px;
 position:absolute;
 left:340px;
-top:160px;}
-body
-{
- background-image: url('https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=753&q=80');
- background-repeat:no-repeat;
- background-attachment:fixed;
- background-size:cover;}
- span
+top:150px;}
+pre
  {
  color :#ffffff;
+ font-size:25px;
+ font-family: 'Playfair Display', serif;
+ position:absolute;
+ left:160px;
+ top:380px;
  }
+.intro-social li
+{
+text-decoration:none;
+display:inline;
+padding:30px;}
+.intro-social
+{
+position:absolute;
+top:90%;
+right:39%;
+}
+
+.intro-social li a:hover{
+color:#cc005f;}
+.container
+{
+perspective-origin: 0% 50%;
+perspective:800px;}
+.section-intro h4 {
+    color: #FF0077;
+    font-size: 1.6rem;
+    line-height: 1.875;
+    margin-bottom: 0.3rem;
+    letter-spacing: .4rem;
+    padding:10px 50px;
+    margin-top:100px;
+}
+.section-intro {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 3.6rem;
+    position: relative;
+}
+.greeting
+{
+font-size:50px;}
+.button.stroke {
+    background: transparent !important;
+    position: absolute;
+width: 150px;
+height: 53px;
+left: 298px;
+top: 475px;
+color:#fff;
+font-size:25px;
+padding:5px 0px;
+border: 2px solid #8D8D8D;
+box-sizing: border-box;
+}
